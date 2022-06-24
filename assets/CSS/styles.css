@@ -6,7 +6,6 @@
 header, footer {
    display: flex;
    justify-content: space-between;
-   align-items: flex-end;
    background-color: lightblue;
 }
 
@@ -19,14 +18,18 @@ body {
 }
 
 h1 {
-    font-size: large;
+    font-size: 50px;
+    background-color: lightblue;
+    margin: inherit;
 }
 
-.nav {
+
+/* .nav {
+   display: flex;
    justify-content: flex-end;
    display: inline-block;
    font-size: small;
-   text-decoration: underline;
+   text-decoration: underline; */
 }
 
 .header {
@@ -36,10 +39,27 @@ h1 {
    display: inline-block;
 }
 
-.nav ul li {
+nav ul li {
    display: inline-block;
    list-style-type: none;
    font-size: 15px;
+}
+
+.banner {
+   background-image: url("../images/banner.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 200px;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.subtitle {
+   background-color: lightblue;
+   position: relative;
+   margin: 95px;
+   padding: 5px;
 }
 
 .worksmalldiv {
